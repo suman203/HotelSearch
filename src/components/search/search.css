@@ -1,0 +1,161 @@
+
+    .searchBtn{
+      background-color: #0071c2;
+      color: white;
+      font-weight: 400;
+      padding: 8px;
+      border: none;
+      cursor: pointer;
+    }
+  
+  .searchBar {
+  
+    height: 28px;
+  
+    background-color: white;
+  
+    border: 3px solid #f5b70d;
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: space-around;
+  
+    padding: 10px 0px;
+  
+    border-radius: 4px;
+  
+    position: absolute;
+  
+    top: 0px;
+  
+    width: 100%;
+  
+     max-width: 1000px; 
+  
+  }
+  
+   
+   
+  .searchIcon {
+  
+    color: lightgray;
+  
+  }
+  
+   
+  
+  
+  .searchItem {
+  
+    display: flex;
+  
+    align-items: center;
+  
+    gap: 12px;
+  
+  }
+  
+   
+  
+  .searchInput {
+  
+    
+  border: none;
+    outline: none;
+  
+  }
+  
+   
+  
+  .searchText {
+  
+    color: lightgray;
+  
+    cursor: pointer;
+  
+  }
+  
+   
+  
+  .date {
+  
+    position: absolute;
+  
+    top: 50px;
+  
+    z-index: 2;
+  
+  }
+  
+   
+  
+  .options {
+  
+    z-index: 2;
+  
+    position: absolute;
+  
+    top: 60px;
+  
+    background-color: white;
+  
+    color: black;
+  
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  
+  }
+  
+   
+  
+  .optionItem {
+  
+    width: 225px;
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    margin: 15px;
+  
+  }
+  
+   
+  
+  .optionCounter {
+  
+    display: flex;
+  
+    align-items: center;
+    color:black;
+  
+  
+  
+    font-size: 12px;
+    gap: 10px;
+  
+    
+  
+  }
+  
+   
+  
+  .optionCounterButton {
+  
+    width: 25px;
+  
+    height: 25px;
+  
+    border: 1px solid #0761a2;
+  
+    color: #0b8ae6;
+  
+    cursor: pointer;
+  
+    background-color: white;
+  
+  }
+  
+ 
